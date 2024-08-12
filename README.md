@@ -14,23 +14,28 @@ This notebooks work on the Titanic dataset
 - **Duplicate Data**: Methods to identify and remove duplicate entries.  
 
 
-Data Cleaning Steps
-1. Data Overview
+## Data Cleaning Steps
+**1. Data Overview**
 The dataset consists of 891 entries with 12 columns, including PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, and Embarked.
 Summary statistics and data types are provided for initial insights.
-2. Handling Missing Data
-Filling Missing Data:
+**2. Handling Missing Data**
+*Filling Missing Data:*
 Used fillna() to replace missing values with constants, preceding values, or mean values.
-Dropping Missing Data:
+*Dropping Missing Data:*
 Utilized dropna() to remove rows or columns with missing values.
-3. Duplicate Data
+**4. Duplicate Data**
 Identified duplicate entries using duplicates().sum().
 Removed duplicates with drop_duplicates() to ensure data integrity.
-4. Inconsistent Values
+**5. Inconsistent Values**
 Addressed data inconsistencies that may arise from data entry errors or collection methods.
-- **Inconsistent Values**: Strategies to address data inconsistencies.  
+Inconsistent Values: Strategies to address data inconsistencies.  
 
-## Getting Started  
 
-1. **Clone the repository**:  
-   ```bash  
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+This repository was inspired by the work of [Kinza Asif] and the Google Colab notebook Data Cleaning Notebook.
+
+## Contact
+If you have any questions or need help with this repository, please don't hesitate to reach out to [Kinza Asif] at [sweetykinzy2@gmail.com].
